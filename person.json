@@ -1,0 +1,30 @@
+[
+  {
+    "id": "1",
+    "firstName": "Parmod",
+    "lastName": "Shrestha",
+    "age": 29,
+    "gender": "male"
+  },
+  {
+    "id": "2",
+    "firstName": "Sajita",
+    "lastName": "Maharjan",
+    "age": 30,
+    "gender": "female"
+  },
+  {
+    "id": "3",
+    "firstName": "Adit",
+    "lastName": "Ghimire",
+    "age": 26,
+    "gender": "male"
+  },
+  {
+    "id": "4",
+    "firstName": "Smriti",
+    "lastName": "Nepali",
+    "age": 32,
+    "gender": "female"
+  }
+]
