@@ -23,26 +23,14 @@ public class BlogPost {
             @JsonProperty("id") String id,
             @JsonProperty("authorId") String authorId,
             @JsonProperty("postContent") String postContent) {
-        validateInput(id, authorId);
-        this.id = id;
-        this.authorId = authorId;
-        this.postContent = postContent;
-    }
-
-    // Input validation for fields, this is static so it can be called from the Builder as well
-    private static void validateInput(String id, String authorId) {
         if (id == null) {
             throw new IllegalArgumentException("ID cannot be null");
         }
         if (authorId == null) {
             throw new IllegalArgumentException("AuthorId cannot be null");
         }
-    }
-
-    public static class Builder {
-        public BlogPost build() {
-            validateInput(id, authorId);
-            return new BlogPost(id, authorId, postContent);
-        }
+        this.id = id;
+        this.authorId = authorId;
+        this.postContent = postContent;
     }
 }

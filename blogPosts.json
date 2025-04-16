@@ -1,0 +1,22 @@
+[
+  {
+    "id": "P1",
+    "authorId": "1",
+    "postContent": "Secret Mission: How not to go on a mission."
+  },
+  {
+    "id": "P2",
+    "authorId": "2",
+    "postContent": "The Chef Queen: How to make a perfect cooking life."
+  },
+  {
+    "id": "P3",
+    "authorId": "3",
+    "postContent": "How to prepare yourself for a hike."
+  },
+  {
+    "id": "P4",
+    "authorId": "4",
+    "postContent": "Ways to make yourself look younger."
+  }
+]
